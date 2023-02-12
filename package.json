@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "start": "parcel --open --no-cache --port 3000",
+    "start": "parcel --open --no-cache --port 7777",
     "build": "parcel build"
   },
   "repository": {
