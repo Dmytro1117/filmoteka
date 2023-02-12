@@ -7,7 +7,7 @@
   "targets": {
     "default": {
       "distDir": "./output",
-      "publicUrl": "/filmoteka-by-Enigma-code/"
+      "publicUrl": "/filmoteka-by-Enigma-code"
     }
   },
   "scripts": {
