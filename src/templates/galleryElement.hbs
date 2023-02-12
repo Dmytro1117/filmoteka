@@ -1,0 +1,34 @@
+{{#each this}}
+  <li class='gallery__item' data-id='{{id}}'>
+    {{#if posterUrl}}
+      <img class='item__image' src='{{posterUrl}}' alt='film poster' />
+    {{else}}
+      <img class='item__image' src='{{noImage}}' alt='#' />
+    {{/if}}
+    <h2 class='item__title'>{{title}}</h2>
+    <span class='item__category-js item__category'>
+      {{genres}}
+    </span>
+    <span class='item__category'>| {{year}}</span>
+    <p class='gallery__overlay'>
+      {{#if original_language}}
+        Мова оригінала:
+        <span class='item__lang'>{{original_language}}</span>
+      {{/if}}
+      {{#if overview}}
+        {{overview}}
+      {{/if}}
+    </p>
+    {{#if vote_average}}
+      <span class='item__vote'>{{vote_average}}</span>
+    {{/if}}
+  </li>
+{{/each}}
+
+{{!-- <div class="entry">
+{{#if author}}
+<h1>{{firstName}} {{lastName}}</h1>
+{{else}}
+<h1>Unknown Author</h1>
+{{/if}}
+</div> --}}

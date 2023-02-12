@@ -1,0 +1,54 @@
+<header class="header header--search js-header">
+  <div class="container header__container">
+    <button class="header__btn js-watchSomething-btn">Watch Something</button>
+    <div class="header__nav">
+      <button class="js-logo header__btn">
+        <div class="header__logo"></div>
+        <span class="header__text-logo">Filmoteka </span>
+      </button>
+      <div class="wrapper">
+        <button class="js-home-btn header__btn header__home-btn current">Home</button>
+        <button class="js-lyb-btn header__btn header__lyb-btn">My library</button>
+        <button class="js-signIn-btn header__btn header__home-btn sign-btn is-hidden">
+          <svg width="16" height="16">
+            <use href="./images/icons.svg#icon-sign-in"></use>
+          </svg>
+          &nbsp Sign In
+        </button>
+        <button class="js-signOut-btn header__btn header__lyb-btn sign-btn is-hidden">
+          Sign Out &nbsp
+          <svg width="16" height="16">
+            <use href="./images/icons.svg#icon-sign-out"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="js-userStatus userStatus"></p>
+    </div>
+    <form class="js-search-form header_form">
+      <label class="header__input-label">
+        <input
+          placeholder="Movie search"
+          class="header__input js-search-input"
+          type="text"
+          name="searchQuery"
+      /></label>
+      <button class="header__btn header__search-btn"></button>
+      <span class="header__error is-hidden"
+        >Search result not successful. Enter the correct movie name and
+      </span>
+    </form>
+    <div class="wrap-lyb-nav">
+      <button class="js-watched-btn header__lyb-nav-btn active is-hidden">Watched</button>
+      <button class="js-queued-btn header__lyb-nav-btn is-hidden">Queue</button>
+    </div>
+    <dim class="theme-wrapper">
+      <span class="js-theme-name">Світла тема</span>
+      <form class="js-theme-form">
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </form>
+    </dim>
+  </div>
+</header>

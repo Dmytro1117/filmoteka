@@ -1,0 +1,13 @@
+<div class='movie-card' data-id='{{this.id}}'>
+  <img class='item__image' src='{{this.posterUrl}}' alt='film poster' />
+  <h2 class='item__title'>{{this.title}}</h2>
+  <span class='item__category'>
+    {{#each this.genres}}
+      {{this}}
+    {{/each}}
+    |
+    {{this.year}}
+  </span>
+  <button class='js-watch-btn' data-id='{{this.id}}' data-type='watched'></button>
+  <button class='js-queue-btn' data-id='{{this.id}}' data-type='queue'></button>
+</div>

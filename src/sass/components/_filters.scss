@@ -1,0 +1,33 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.filters__item {
+  color: rgb(83, 2, 2);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.305);
+  .dark-theme & {
+    color: red;
+    background-color: #000;
+  }
+}
+
+.js-filtersReset-btn {
+  font-size: inherit;
+  color: rgb(83, 2, 2);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.305);
+  .dark-theme & {
+    color: red;
+    background-color: #000;
+  }
+}

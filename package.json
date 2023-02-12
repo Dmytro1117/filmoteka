@@ -1,0 +1,49 @@
+{
+  "name": "goit-js-team-project",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Dima-Davidenko/filmoteka",
+  "description": "",
+  "source": "src/index.html",
+  "targets": {
+    "default": {
+      "distDir": "./output",
+      "publicUrl": "/filmoteka/"
+    }
+  },
+  "scripts": {
+    "start": "parcel --open --no-cache --port 7777",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dima-Davidenko/filmoteka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dima-Davidenko/filmoteka/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "buffer": "^5.7.1",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.8.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "basiclightbox": "^5.0.4",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.14.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "tui-pagination": "^3.4.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
