@@ -1,4 +1,5 @@
 # Filmoteka
+
 ## JavaScript team project of stundets group BC-36 GoIT Academy
 
 ## [ Stack of technologies ]
@@ -21,6 +22,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Dima-Davidenko/filmoteka/.github/workflows/deploy.yml)
 
 ### Team members
+
 <!-- markdownlint-disable -->
 <!-- readme: contributors,ImgBotApp/- -start -->
 <table>
@@ -59,10 +61,10 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AnnaDux">
-            <img src="https://avatars.githubusercontent.com/u/111693184?v=4" width="100;" alt="Artem"/>
+        <a href="https://github.com/Dmytro1117">
+            <img src="https://avatars.githubusercontent.com/u/111693184?v=4" width="100;" alt="Dmytro"/>
             <br />
-            <sub><b>Anna Nakaryakova</b></sub>
+            <sub><b>Dmytro Moiseienko</b></sub>
             <br />
             <sub><b>🟨🟦</b></sub>
             <br />
@@ -99,22 +101,30 @@
 - Implemented pagination and "infinite scroll".
 - Implemented Up Button.
 
-
 ## Project description
 
-The main goal of our app is to create your own library of watched movies and movies you want to watch. On the main page you are offered current popular films. Search results are displayed in a "pagination" view.
+The main goal of our app is to create your own library of watched movies and movies you want to
+watch. On the main page you are offered current popular films. Search results are displayed in a
+"pagination" view.
 
 You can read information about a movie by hovering your mouse over it.
 
 By clicking on the movie poster, you get access to additional features:
-- Add to Watched: Adds the movie to the Watch Queue in the library. You can add movie to this library even without registration.
-- Remove from Watched: Removes the movie from the Queue to watch in the library. Function works only when user is registered. This is done to correctly synchronize the data of the local and remote databases.
+
+- Add to Watched: Adds the movie to the Watch Queue in the library. You can add movie to this
+  library even without registration.
+- Remove from Watched: Removes the movie from the Queue to watch in the library. Function works only
+  when user is registered. This is done to correctly synchronize the data of the local and remote
+  databases.
 - Watch the original trailer if the information about it is present in the TMDB server response
 - Find trailer on YouTube
 - Find servers where you can watch the film. The search is made on the Google platform.
 
-By clicking the "My Library" button, you get access to the films you have Watched and the films that are in the Queue for viewing.
+By clicking the "My Library" button, you get access to the films you have Watched and the films that
+are in the Queue for viewing.
 
-Clicking the "Watch Something" button gives you access to a random list of high rated movies. This feature is only available to registered users. Search results are implemented as "infinite scrolling".
+Clicking the "Watch Something" button gives you access to a random list of high rated movies. This
+feature is only available to registered users. Search results are implemented as "infinite
+scrolling".
 
 You can search for a movie by query using the "Movie Search" input form.
