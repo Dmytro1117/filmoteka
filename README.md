@@ -62,7 +62,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/Dmytro1117">
-            <img src="https://avatars.githubusercontent.com/u/111693184?v=4" width="100;" alt="Dmytro"/>
+            <img src="https://avatars.githubusercontent.com/u/111579384?v=4" width="100;" alt="Dmytro"/>
             <br />
             <sub><b>Dmytro Moiseienko</b></sub>
             <br />
