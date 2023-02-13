@@ -1,13 +1,13 @@
 {
   "name": "goit-js-team-project",
   "version": "1.0.0",
-  "homepage": "https://github.com/Dmytro1117/filmoteka",
+  "homepage": "https://github.com/Dmytro1117/filmoteka-by-Enigma-code",
   "description": "",
   "source": "src/index.html",
   "targets": {
     "default": {
       "distDir": "./output",
-      "publicUrl": "/filmoteka/"
+      "publicUrl": "/filmoteka-by-Enigma-code/"
     }
   },
   "scripts": {
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dmytro1117/filmoteka.git"
+    "url": "git+https://github.com/Dmytro1117/filmoteka-by-Enigma-code.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dmytro1117/filmoteka/issues"
+    "url": "https://github.com/Dmytro1117/filmoteka-by-Enigma-code/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
